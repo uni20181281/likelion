@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안녕하세요 승빈입니다.</title>
+    <style>
+        *{box-sizing: border-box;}
+        body {margine:0;}
+        a{text-decoration: none;}
+        a:link, a:visited, a:active {color:inherit;}
+
+        header{background : lightpink;}
+        nav{background : lemonchiffon;}
+        aside{background : lightcyan;}
+        footer{background : lightgray;}
+
+        #main{
+            display:flex;
+        }
+        .content{
+            flex:70%;
+        }
+        .aside{
+            flex:30%;
+        }
+        .header{
+            padding: 30px;
+            text-align: center;
+        }
+        .nav
+        .navbar a{
+            padding: 8px;
+            margin-right: 20px;
+        }
+        .navbar a:hover{
+            color: black;
+            background-color: white;
+        }
+        .content{
+            padding: 40px;
+        }
+        footer{
+            padding: 20px;
+            text-align: center;
+        }
+        html, body{
+            height:100%;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        #main{
+            flex: 1;
+        }
+        .foot{
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Seungbin's Webpage</h1>
+        <h4>Welcome to my webpage</h4>
+    </header>
+    <nav class="navbar">
+        <a href="">Home</a>
+        <a href="https://www.instagram.com/hong.seungbin/" target="_blank">Instagram</a>
+    </nav>
+    <div id="main">
+        <article class="content">
+            <h2>About me</h2>
+            <h3>간단한 소개</h3>
+            <p>안녕하세요 멋싸 8기 18학번 홍승빈입니다.<br>
+               저는 현재 1트랙 컴퓨터공학 2트랙 인간공학을 전공하고 있습니다.
+            </p>
+            <h3>생년월일</h3>
+            <p>1999.8.31</p>
+            <h3>좋아하는 음식</h3>
+            <p>돈까스..?</p>
+            <h3>멋싸활동목표</h3>
+            <ol>
+                <li>웹개발 배우기</li>
+                <li>프로젝트 기획해보기</li>
+            </ol>
+            <img src="https://us.123rf.com/450wm/bigandt/bigandt1408/bigandt140800118/30980522-%EC%95%BC%EC%99%B8%EC%97%90%EC%84%9C-%EB%A7%91%EC%9D%80-%EB%82%A0%EC%97%90-7-%EC%A3%BC-%EC%98%A4%EB%9E%98-%EB%90%9C-%EA%B3%A8%EB%93%A0-%EB%A6%AC%ED%8A%B8%EB%A6%AC%EB%B2%84-%EA%B0%95%EC%95%84%EC%A7%80-.jpg?ver=6" alt="멍멍이 사진">
+            <p>강아지가 귀여워서 넣어봤습니다..ㅎㅎ</p>
+        </article>
+        <aside>
+            <h2>AD</h2>
+            <p>광고 생기면 넣을게욤</p>
+        </aside>
+    </div>
+    <footer>
+        <h2>Thank you!</h2>
+    </footer>
+</body>
+</html>
